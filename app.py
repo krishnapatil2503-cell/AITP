@@ -1,10 +1,10 @@
 import streamlit as st
-from markitdown import MarkDownIt
+from markitdown import MarkItDown  # Fixed naming
 import os
 from io import BytesIO
 
 # Initialize MarkDownIt engine
-md_engine = MarkDownIt()
+md_engine = MarkItDown()
 
 # Page Configuration
 st.set_page_config(page_title="Universal Document Reader", page_icon="📄")
